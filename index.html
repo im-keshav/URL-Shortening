@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener - Make Your Links Shorter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="api.png" alt="URL Shortener Logo">
+                <h1>URL Shortener</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Shorten Your URLs in Seconds</h2>
+                <p>Make your links more manageable and trackable with our easy-to-use URL shortener.</p>
+                <div class="url-shortener">
+                    <input type="text" id="longUrl" placeholder="Enter your long URL here...">
+                    <button id="shortenBtn">Shorten URL</button>
+                </div>
+                <div class="result" id="result">
+                    <input type="text" id="shortUrl" readonly>
+                    <button id="copyBtn">Copy</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="api.png" alt="URL Shortening Illustration">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Why Choose Our URL Shortener?</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Lightning Fast</h3>
+                    <p>Get your shortened URL instantly with our optimized service.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure & Reliable</h3>
+                    <p>Your links are safe with our advanced security measures.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Analytics</h3>
+                    <p>Track clicks and engagement with detailed analytics.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Paste Your URL</h3>
+                    <p>Enter your long URL in the input field above.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Click Shorten</h3>
+                    <p>Click the shorten button to generate your short URL.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Share & Track</h3>
+                    <p>Copy and share your shortened URL with others.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <div class="contact-form">
+                <input type="email" placeholder="Enter your email">
+                <textarea placeholder="Your message"></textarea>
+                <button>Send Message</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="api.png" alt="URL Shortener Logo">
+                <h3>URL Shortener</h3>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <p>&copy; 2025 URL Shortener. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
